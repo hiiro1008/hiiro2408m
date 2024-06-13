@@ -1,0 +1,43 @@
+
+h3{
+ font-size: 60px;
+ font-family: "Zen Maru Gothic", serif;
+ color:  rgb(120, 82, 59);
+ justify-content: center;
+ text-align: center;
+}
+
+a{ font-family: "Zen Maru Gothic", serif;
+}
+
+.food-container{
+    display: flex;
+    justify-content: center;
+}
+
+.food{border: 100px solid rgb(120, 82, 59);
+      margin-top: 10px;
+      padding-top: 20px;
+      padding: 10px 20px;
+      font-family: "Zen Maru Gothic", serif;
+      
+      
+}
+
+.food li{
+    list-style: none;
+    margin-right: 100px;
+    margin-left: 100px;
+    border: solid;
+    padding: 10px 20px;
+    border-color: rgb(120, 82, 59);
+    border-radius: 50px;
+    font-family: "Zen Maru Gothic", serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;}
+
+.food a{
+    color:  rgb(120, 82, 59);
+    
+}

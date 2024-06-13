@@ -1,0 +1,34 @@
+
+<h3>写真から探す</h3>
+
+
+<a href="javascript:history.back();">topへ</a>
+
+<div class="foods-container">
+  <% @foods.each do |t| %>
+    <div class="food">
+      <%= t. name%>
+      <%= image_tag t.resize_image_top if t.image_top.attached? %>
+      <li><%= link_to "詳細へ", food_path(t.id) %></li>
+      <li><%= link_to "編集する", edit_food_path(t.id) %></li>
+      <li><%= link_to "削除する", food_path(t.id), method: :delete %></li>
+    </div>
+  <% end %>
+</div>
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+タグ検索
+<%= form_tag({ controller: "foods", action: "tag" }, method: :get) do %>
+    <% Tag.all.each do |t| %>
+        <li><%= check_box_tag 'tag_ids[]', t.id %><%= t.name %></li>
+    <% end %>
+    <%= submit_tag '検索' %>
+<% end %>
+
+<%= form_tag({controller:"foods",action:"tag"}, method: :get) do %>
+    <%= text_field_tag :tag %>
+    <%= submit_tag 'タグを追加' %>
+<% end %>
+
+<% @foods.each do |food| %>
+    <p><%= food.name %></p>
+<% end %>
