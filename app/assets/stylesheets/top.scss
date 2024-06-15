@@ -11,8 +11,7 @@ body{justify-content: center;
 
 
 .container{display: flex;
-           justify-content: center;
-          }
+   justify-content: center;}
  
 .content{color: rgb(120, 82, 59);
          font-size: 60px;
@@ -29,4 +28,5 @@ body{justify-content: center;
          display:flex;
 }
 
+.content a{color: rgb(120, 82, 59);}
 
