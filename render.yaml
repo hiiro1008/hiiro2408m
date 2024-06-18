@@ -1,6 +1,6 @@
 databases:
   - name: bistro select_DB
-    databaseName: bistro select_db
+    databaseName: bistro_select_db
     user: bistro select
     region: singapore
 
